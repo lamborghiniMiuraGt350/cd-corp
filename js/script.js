@@ -37,6 +37,7 @@ window.addEventListener('scroll', function () {
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     loop: true,
+    autoHeight: true,
     // Navigation arrows
     navigation: {
         nextEl: '.page-next',
@@ -44,4 +45,13 @@ const swiper = new Swiper('.swiper', {
     },
 });
 
+const swiper2 = new Swiper('.text-slider-swiper', {
+    // Optional parameters
+    loop: true,
+    // Navigation arrows
+    navigation: {
+        nextEl: '.text-slider-next',
+        prevEl: '.text-slider-prev',
+    },
+});
 //__________________________________________________
