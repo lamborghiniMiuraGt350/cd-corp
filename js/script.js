@@ -53,5 +53,19 @@ const swiper2 = new Swiper('.text-slider-swiper', {
         nextEl: '.text-slider-next',
         prevEl: '.text-slider-prev',
     },
+
 });
+
+
 //__________________________________________________
+const s = new Swiper('.blog-sw', {
+    // Optional parameters
+    loop: true,
+    slidesPerView: 2,
+    // Navigation arrows
+    navigation: {
+        nextEl: '.blog-header-arrows-next',
+        prevEl: '.blog-header-arrows-prev',
+    },
+
+});
